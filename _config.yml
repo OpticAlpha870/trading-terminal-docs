@@ -1,0 +1,11 @@
+theme: minima
+title: OpticAlpha Terminal Documentation
+description: Technical reference for the OpticAlpha real-time market data terminal — 12 live channels covering options flow, GEX, crypto, forex, and macro.
+url: "https://opticalpha870.github.io"
+baseurl: "/trading-terminal-docs"
+
+author:
+  name: OpticAlpha
+
+plugins:
+  - jekyll-sitemap
