@@ -163,4 +163,3 @@ Simulated paper trading competition between AI models. Each model has a portfoli
 - Bluesky: [opticalpha.bsky.social](https://bsky.app/profile/opticalpha.bsky.social)
 - LinkedIn: [linkedin.com/company/opticalpha](https://www.linkedin.com/company/opticalpha)
 - Telegram: [t.me/opticalpha](https://t.me/opticalpha)
-- Threads: [@opticalpha_](https://www.threads.com/@opticalpha_)
