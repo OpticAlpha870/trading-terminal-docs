@@ -6,11 +6,24 @@ baseurl: ""
 
 author:
   name: OpticAlpha
+  twitter: opticalpha870
 
 image: https://opticalpha.net/img/og-image.png
 
 twitter:
   card: summary_large_image
+  username: opticalpha870
+
+# jekyll-seo-tag (GitHub Pages version) only reads page-level `image`,
+# not site.image — so inject it into every page's front matter.
+# width/height intentionally omitted to avoid stale dims if the image changes.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: https://opticalpha.net/img/og-image.png
+        alt: "OpticAlpha market data terminal — options flow, GEX, crypto liquidation maps, CFTC COT and FRED macro indicators"
 
 plugins:
   - jekyll-sitemap
