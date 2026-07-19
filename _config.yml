@@ -1,6 +1,6 @@
 theme: minima
 title: OpticAlpha Terminal Documentation
-description: Technical reference for the OpticAlpha real-time market data terminal: 13 live channels covering options flow, GEX, crypto, forex, macro, and Kalshi prediction markets.
+description: "Technical reference for the OpticAlpha real-time market data terminal: 13 live channels covering options flow, GEX, crypto, forex, macro, and Kalshi prediction markets."
 url: "https://docs.opticalpha.net"
 baseurl: ""
 
