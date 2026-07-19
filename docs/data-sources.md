@@ -23,22 +23,22 @@ Derived from real-time open interest and options chain data. GEX is calculated p
 ## Crypto
 
 **BTC and ETH prices**
-Live 1-minute candlestick data from Binance. WebSocket feed, real-time.
+Live 1-minute candlestick data from [Binance](https://www.binance.com/). WebSocket feed, real-time.
 
 **Liquidation heatmap**
-Constructed from open perpetual futures positions and leverage tier data aggregated across major centralised exchanges including Binance, OKX, and Bybit. Liquidation clusters are calculated at each price level based on estimated margin requirements per leverage tier.
+Constructed from open perpetual futures positions and leverage tier data aggregated across major centralised derivatives exchanges. Liquidation clusters are calculated at each price level based on estimated margin requirements per leverage tier.
 
 **Whale alerts**
 Large perpetual futures trades above a notional threshold, sourced from exchange trade data in real time.
 
 **Crypto Fear and Greed Index**
-Composite index combining price volatility, market momentum, social media volume, Bitcoin dominance, and Google Trends data. Published by Alternative.me and updated hourly.
+Composite index combining price volatility, market momentum, social media volume, Bitcoin dominance, and Google Trends data. Published by [Alternative.me](https://alternative.me/crypto/fear-and-greed-index/) and updated hourly.
 
 **Bitcoin and Ethereum spot ETF flows**
 Daily net flow data sourced from public ETF filings and exchange-reported AUM changes. Updates daily after market close.
 
 **CVD and orderbook depth**
-Binance WebSocket feed for BTC and ETH perpetuals. Cumulative Volume Delta calculated from individual trade aggressor side data. Orderbook depth from the Level 2 feed.
+[Binance](https://www.binance.com/) WebSocket feed for BTC and ETH perpetuals. Cumulative Volume Delta calculated from individual trade aggressor side data. Orderbook depth from the Level 2 feed.
 
 ---
 
@@ -48,10 +48,10 @@ Binance WebSocket feed for BTC and ETH perpetuals. Cumulative Volume Delta calcu
 Real-time FX spot prices for 7 major pairs (EURUSD, USDJPY, GBPUSD, USDCAD, AUDUSD, USDCHF, NZDUSD). Sourced from institutional FX data feeds. WebSocket, real-time during market hours.
 
 **CFTC COT positioning**
-Directly from the Commodity Futures Trading Commission's weekly Commitments of Traders report. Published every Friday at 3:30 PM ET, reflecting positions as of the prior Tuesday. The terminal updates automatically after each Friday release.
+Directly from the Commodity Futures Trading Commission's [weekly Commitments of Traders report](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm). Published every Friday at 3:30 PM ET, reflecting positions as of the prior Tuesday. The terminal updates automatically after each Friday release.
 
 **Central bank rates**
-Policy rates for the Federal Reserve, European Central Bank, Bank of England, Bank of Japan, Bank of Canada, Reserve Bank of Australia, and Reserve Bank of New Zealand. Updated on the day of each central bank decision.
+Policy rates for the [Federal Reserve](https://www.federalreserve.gov/), [European Central Bank](https://www.ecb.europa.eu/), [Bank of England](https://www.bankofengland.co.uk/), [Bank of Japan](https://www.boj.or.jp/en/), [Bank of Canada](https://www.bankofcanada.ca/), [Reserve Bank of Australia](https://www.rba.gov.au/), and [Reserve Bank of New Zealand](https://www.rbnz.govt.nz/). Updated on the day of each central bank decision.
 
 ---
 
@@ -61,7 +61,7 @@ Policy rates for the Federal Reserve, European Central Bank, Bank of England, Ba
 Live US Treasury yields for 2Y, 3M, 10Y, and 30Y maturities sourced from Treasury market data feeds. Refreshes every 60 seconds during market hours. UK Gilt 10Y and German Bund 10Y included for cross-market context.
 
 **FRED economic indicators**
-18 data series sourced directly from the Federal Reserve Bank of St. Louis FRED API. Each series updates on its official release schedule — monthly for most inflation and labor data, quarterly for GDP. The terminal pulls the latest available value on each release date automatically.
+18 data series sourced directly from the [Federal Reserve Bank of St. Louis FRED API](https://fred.stlouisfed.org/). Each series updates on its official release schedule — monthly for most inflation and labor data, quarterly for GDP. The terminal pulls the latest available value on each release date automatically.
 
 The 18 series covered:
 
@@ -113,16 +113,16 @@ Upcoming earnings dates and EPS estimates. Updates daily.
 ## Filings and research
 
 **Insider trades (Form 4)**
-Sourced directly from SEC EDGAR. All qualifying Form 4 filings — open market purchases and sales, minimum $100,000 notional, rolling 30-day window. No third-party data vendor. Filings surface within the SEC's own processing time, typically hours after filing.
+Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). All qualifying Form 4 filings — open market purchases and sales, minimum $100,000 notional, rolling 30-day window. No third-party data vendor. Filings surface within the SEC's own processing time, typically hours after filing.
 
 **Congressional trades (STOCK Act disclosures)**
-Sourced from public STOCK Act disclosure filings. Members of Congress have 30 days to report after the transaction date. The terminal shows the filing date, transaction date, politician name, party, chamber, ticker, transaction type, and reported amount range.
+Sourced from public [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038) disclosure filings. Members of Congress have 30 days to report after the transaction date. The terminal shows the filing date, transaction date, politician name, party, chamber, ticker, transaction type, and reported amount range.
 
 **13F institutional holdings**
-Sourced directly from SEC EDGAR. Covers all 13F filings from institutional managers with over $100 million AUM. Quarterly, with data available within 45 days of quarter end. Shows most added, most reduced, new positions, and closed positions per quarter.
+Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). Covers all 13F filings from institutional managers with over $100 million AUM. Quarterly, with data available within 45 days of quarter end. Shows most added, most reduced, new positions, and closed positions per quarter.
 
 **Social sentiment**
-WallStreetBets mention counts and momentum sourced from Reddit data feeds. Short squeeze watchlist combines mention data with short float percentage and days-to-cover from financial data providers.
+WallStreetBets mention counts and momentum sourced from [Reddit](https://www.reddit.com/r/wallstreetbets/) data feeds. Short squeeze watchlist combines mention data with short float percentage and days-to-cover from financial data providers.
 
 ---
 

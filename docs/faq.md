@@ -49,7 +49,7 @@ The index is a 0-100 composite that combines price volatility, market momentum, 
 ## Forex
 
 **How often does CFTC COT data update?**
-The CFTC publishes the Commitment of Traders report every Friday at 3:30 PM ET. It reflects positions as of the prior Tuesday. This means the data is always 3-6 days stale by the time it is public. The terminal updates automatically each Friday after the release.
+The [CFTC](https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm) publishes the Commitment of Traders report every Friday at 3:30 PM ET. It reflects positions as of the prior Tuesday. This means the data is always 3-6 days stale by the time it is public. The terminal updates automatically each Friday after the release.
 
 **How do I read the COT positioning chart?**
 The chart shows net non-commercial positioning — hedge funds and large speculators. Positive values mean speculators are net long. Negative values mean net short. The signal is in the extremes, not the direction. Extreme net long positioning means the trade is crowded and vulnerable to reversal on any negative catalyst. It is a contrarian indicator, not a trend-following one.
@@ -62,7 +62,7 @@ The carry trade involves borrowing in a low-interest-rate currency and buying a 
 ## Macro
 
 **What macro indicators does the terminal track?**
-The terminal tracks 18 FRED economic series across five groups: Growth (GDP, Industrial Production, Retail Sales, Housing Starts), Inflation (CPI, Core CPI, PCE, Core PCE), Labor (Unemployment Rate, Nonfarm Payrolls, Jobless Claims, Participation Rate), Rates (Fed Funds Rate, 10Y Treasury, 2Y Treasury, Real Yield), and Policy (M2 Money Supply, Federal Debt). Each series shows current value, prior value, direction, and a sparkline.
+The terminal tracks 18 [FRED](https://fred.stlouisfed.org/) economic series across five groups: Growth (GDP, Industrial Production, Retail Sales, Housing Starts), Inflation (CPI, Core CPI, PCE, Core PCE), Labor (Unemployment Rate, Nonfarm Payrolls, Jobless Claims, Participation Rate), Rates (Fed Funds Rate, 10Y Treasury, 2Y Treasury, Real Yield), and Policy (M2 Money Supply, Federal Debt). Each series shows current value, prior value, direction, and a sparkline.
 
 **How do I use the yield curve in the terminal?**
 The terminal shows the live US Treasury yield curve refreshing every 60 seconds. Watch the shape: a normal upward slope is healthy. A flat curve signals uncertainty. An inverted curve (2Y above 10Y) has preceded every US recession since 1955 with a 12-18 month lead time. The 2Y-10Y spread is the most watched measure. The terminal also shows UK and German 10Y yields for cross-market context.
@@ -81,7 +81,7 @@ Form 4 is filed by individual corporate insiders (directors, officers, 10%+ shar
 Open market purchases require the insider to spend their own money at current market prices with full knowledge of company fundamentals. There is no external reason to buy — no compensation plan, no exercise requirement. It is the purest expression of conviction. Sales, by contrast, happen for many reasons including diversification, tax planning, and compensation-related exercises, so they carry less informational weight.
 
 **How long do members of Congress have to disclose stock trades?**
-Under the STOCK Act, members of Congress and their staff must report stock transactions within 30 days of the trade. Violations carry a $200 fine, which is widely considered insufficient enforcement. The terminal surfaces disclosures as they are filed publicly.
+Under the [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038), members of Congress and their staff must report stock transactions within 30 days of the trade. Violations carry a $200 fine, which is widely considered insufficient enforcement. The terminal surfaces disclosures as they are filed publicly.
 
 ---
 
@@ -97,7 +97,7 @@ Unusual Whales focuses on options flow and dark pools with no forex, macro, or c
 The terminal is optimised for desktop. The multi-channel layout requires screen width to be useful. The marketing pages and this documentation are fully responsive. Mobile browser access to the terminal is possible but the desktop experience is significantly richer.
 
 **What is the data latency?**
-Most channels use live WebSocket feeds that push data as it arrives. Crypto prices, FX spot rates, options flow, and crypto liquidations are real-time. Index prices update on 1-minute candles. Macro indicators update on their official release schedules. Insider filings and congressional disclosures reflect SEC processing time.
+Most channels use live WebSocket feeds that push data as it arrives. Crypto prices, FX spot rates, options flow, and crypto liquidations are real-time. Index prices update on 1-minute candles. Macro indicators update on their official release schedules. Insider filings and congressional disclosures reflect [SEC](https://www.sec.gov/edgar) processing time.
 
 ---
 
