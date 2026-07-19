@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Sources
-description: Where each OpticAlpha terminal channel sources its data — primary feeds, official regulatory databases, and update frequencies.
+description: Where each OpticAlpha terminal channel sources its data: primary feeds, official regulatory databases, and update frequencies.
 ---
 
 # Data sources
@@ -61,7 +61,7 @@ Policy rates for the [Federal Reserve](https://www.federalreserve.gov/), [Europe
 Live US Treasury yields for 2Y, 3M, 10Y, and 30Y maturities sourced from Treasury market data feeds. Refreshes every 60 seconds during market hours. UK Gilt 10Y and German Bund 10Y included for cross-market context.
 
 **FRED economic indicators**
-18 data series sourced directly from the [Federal Reserve Bank of St. Louis FRED API](https://fred.stlouisfed.org/). Each series updates on its official release schedule — monthly for most inflation and labor data, quarterly for GDP. The terminal pulls the latest available value on each release date automatically.
+18 data series sourced directly from the [Federal Reserve Bank of St. Louis FRED API](https://fred.stlouisfed.org/). Each series updates on its official release schedule: monthly for most inflation and labor data, quarterly for GDP. The terminal pulls the latest available value on each release date automatically.
 
 The 18 series covered:
 
@@ -113,7 +113,7 @@ Upcoming earnings dates and EPS estimates. Updates daily.
 ## Filings and research
 
 **Insider trades (Form 4)**
-Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). All qualifying Form 4 filings — open market purchases and sales, minimum $100,000 notional, rolling 30-day window. No third-party data vendor. Filings surface within the SEC's own processing time, typically hours after filing.
+Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). All qualifying Form 4 filings: open market purchases and sales, minimum $100,000 notional, rolling 30-day window. No third-party data vendor. Filings surface within the SEC's own processing time, typically hours after filing.
 
 **Congressional trades (STOCK Act disclosures)**
 Sourced from public [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038) disclosure filings. Members of Congress have 30 days to report after the transaction date. The terminal shows the filing date, transaction date, politician name, party, chamber, ticker, transaction type, and reported amount range.
@@ -126,4 +126,11 @@ WallStreetBets mention counts and momentum sourced from [Reddit](https://www.red
 
 ---
 
-*Live terminal: [opticalpha.net/terminal](https://opticalpha.net/terminal) — 14-day free trial, no credit card required.*
+## Predictions
+
+**Kalshi prediction markets**
+Implied probability, order book depth, capital velocity, and term structure sourced directly from Kalshi's public REST API for top finance-relevant series (Fed decisions, CPI, BTC price bands, NFP, GDP, and more). No API key required on Kalshi's end for public market data. Polled roughly every 5 minutes; sparklines built from 24-hour hourly candlesticks.
+
+---
+
+*Live terminal: [opticalpha.net/terminal](https://opticalpha.net/terminal). 14-day free trial, no credit card required.*

@@ -1,6 +1,6 @@
 theme: minima
 title: OpticAlpha Terminal Documentation
-description: Technical reference for the OpticAlpha real-time market data terminal — 12 live channels covering options flow, GEX, crypto, forex, and macro.
+description: Technical reference for the OpticAlpha real-time market data terminal: 13 live channels covering options flow, GEX, crypto, forex, macro, and Kalshi prediction markets.
 url: "https://docs.opticalpha.net"
 baseurl: ""
 
@@ -9,6 +9,7 @@ author:
   twitter: opticalpha870
 
 image: https://opticalpha.net/img/og-image.png
+favicon: https://opticalpha.net/img/opticalpha.webp
 
 twitter:
   card: summary_large_image
@@ -23,7 +24,14 @@ defaults:
     values:
       image:
         path: https://opticalpha.net/img/og-image.png
-        alt: "OpticAlpha market data terminal — options flow, GEX, crypto liquidation maps, CFTC COT and FRED macro indicators"
+        alt: "OpticAlpha market data terminal: options flow, GEX, crypto liquidation maps, CFTC COT and FRED macro indicators"
 
 plugins:
   - jekyll-sitemap
+
+# Explicit nav order (default is alphabetical, which buries the glossary last).
+header_pages:
+  - docs/glossary.md
+  - docs/faq.md
+  - docs/data-sources.md
+  - docs/channel-comparison.md

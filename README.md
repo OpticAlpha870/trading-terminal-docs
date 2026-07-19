@@ -1,12 +1,16 @@
-# OpticAlpha — Trading Terminal Documentation
+<a href="https://opticalpha.net"><img src="https://opticalpha.net/img/opticalpha.webp" width="40" height="40" alt="OpticAlpha logo"></a>
+
+# OpticAlpha: Trading Terminal Documentation
 
 Technical reference for the [OpticAlpha](https://opticalpha.net) real-time market data terminal.
+
+[![Live terminal](https://img.shields.io/badge/live-opticalpha.net-10B981)](https://opticalpha.net) [![Docs site](https://img.shields.io/badge/docs-docs.opticalpha.net-10B981)](https://docs.opticalpha.net)
 
 ---
 
 ## Data Channels
 
-OpticAlpha runs 12 data channels, each streaming over a dedicated WebSocket connection. Cards update in real time as new data arrives.
+OpticAlpha runs 13 data channels, each streaming over a dedicated WebSocket connection. Cards update in real time as new data arrives.
 
 ---
 
@@ -79,7 +83,7 @@ Each series shows current value, previous value, direction, and a sparkline.
 
 ### 7. Forex
 
-Live spot rates for 7 pairs: EURUSD, USDJPY, GBPUSD, USDCAD, AUDUSD, USDCHF, NZDUSD. 30-day price history with ATR calculated as a percentage of spot. CFTC COT non-commercial net positioning as a bar chart — extremes signal potential reversals, not continuation. Central bank policy rates with historical rate path. Economic calendar covering all 8 FX-relevant currencies.
+Live spot rates for 7 pairs: EURUSD, USDJPY, GBPUSD, USDCAD, AUDUSD, USDCHF, NZDUSD. 30-day price history with ATR calculated as a percentage of spot. CFTC COT non-commercial net positioning as a bar chart: extremes signal potential reversals, not continuation. Central bank policy rates with historical rate path. Economic calendar covering all 8 FX-relevant currencies.
 
 **Key concepts:**
 - **COT non-commercial:** Hedge funds and large speculators. Extreme one-sided positioning = reversal risk.
@@ -91,7 +95,7 @@ Live spot rates for 7 pairs: EURUSD, USDJPY, GBPUSD, USDCAD, AUDUSD, USDCHF, NZD
 
 ### 8. Filings
 
-Congressional stock trades reported under the STOCK Act, showing politician name, party, chamber, ticker, transaction type, and amount range. Insider transactions from SEC EDGAR Form 4 filings — open market purchases and sales only, minimum $100,000, 30-day rolling window. Sourced directly from SEC EDGAR, not a third-party provider.
+Congressional stock trades reported under the STOCK Act, showing politician name, party, chamber, ticker, transaction type, and amount range. Insider transactions from SEC EDGAR Form 4 filings: open market purchases and sales only, minimum $100,000, 30-day rolling window. Sourced directly from SEC EDGAR, not a third-party provider.
 
 **Key concepts:**
 - **Open market buy:** Highest-quality insider signal. Requires public disclosure, comes with legal restrictions.
@@ -103,9 +107,9 @@ Congressional stock trades reported under the STOCK Act, showing politician name
 
 ### 9. Institutions
 
-Aggregate view of all 13F institutional filings from SEC EDGAR — most added, most reduced, new positions, and fully closed positions for the current quarter. Per-fund holdings trend search showing position changes across multiple quarters.
+Aggregate view of all 13F institutional filings from SEC EDGAR: most added, most reduced, new positions, and fully closed positions for the current quarter. Per-fund holdings trend search showing position changes across multiple quarters.
 
-**Note:** 13F data is quarterly with a 45-day filing lag. Shows where institutional money was 6-7 weeks ago — useful for structural positioning, not short-term signals.
+**Note:** 13F data is quarterly with a 45-day filing lag. It shows where institutional money was 6-7 weeks ago, useful for structural positioning, not short-term signals.
 
 **Use case:** Institutional convergence signals (multiple funds opening same position), fund rotation tracking.
 
@@ -133,6 +137,18 @@ Simulated paper trading competition between AI models. Each model has a portfoli
 
 ---
 
+### 13. Kalshi Predictions
+
+Implied probabilities, order book depth, and term structure for top finance-relevant Kalshi prediction markets: Fed rate decisions, CPI prints, BTC price bands, NFP, GDP, and more. A capital velocity metric shows how fast money is rotating through a market. Sparklines are built from 24-hour hourly candlesticks.
+
+**Key concepts:**
+- **Implied probability:** A market's YES/NO contract price read directly as a probability (a contract trading at 62c implies a 62% chance).
+- **Term structure:** How implied probability shifts across contracts with different resolution dates for the same underlying event.
+
+**Use case:** Cross-checking options-implied Fed odds against Kalshi's own market pricing, positioning ahead of CPI/NFP prints.
+
+---
+
 ## Update Frequency Reference
 
 | Channel | Fastest update |
@@ -141,6 +157,7 @@ Simulated paper trading competition between AI models. Each model has a portfoli
 | FX spot rates | Real-time |
 | Options flow | Real-time |
 | Crypto liquidations | Real-time |
+| Kalshi prediction markets | ~5-minute poll |
 | Index prices | 1-minute candles |
 | VIX | ~60 seconds |
 | Yield curve | ~60 seconds |

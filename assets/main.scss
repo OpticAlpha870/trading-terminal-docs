@@ -1,0 +1,37 @@
+---
+---
+
+@import "minima";
+
+// Brand pass: OpticAlpha green accent instead of minima's default blue.
+// Overrides only (no layout changes) - keeps minima's tested responsive/nav structure intact.
+$brand: #10B981;
+
+.site-header {
+  border-top: 5px solid $brand;
+}
+
+.site-title,
+.site-title:visited {
+  color: $grey-color-dark;
+}
+
+.site-nav .page-link {
+  color: $grey-color-dark;
+}
+
+a {
+  color: $brand;
+}
+
+a:visited {
+  color: $brand;
+}
+
+a:hover {
+  color: darken($brand, 8%);
+}
+
+h2 {
+  border-bottom: 1px solid $brand;
+}

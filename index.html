@@ -3,27 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="m8ayT1GiYXABrM5yr46OlejWevEmA-Blb80aQLWLR_U">
-  <meta name="description" content="Technical documentation for the OpticAlpha real-time market data terminal — 12 live channels covering options flow, GEX, crypto, forex, and macro.">
+  <meta name="description" content="Technical documentation for the OpticAlpha real-time market data terminal: 13 live channels covering options flow, GEX, crypto, forex, macro, and Kalshi prediction markets.">
   <meta name="robots" content="index, follow">
   <title>OpticAlpha Terminal Documentation</title>
   <link rel="canonical" href="https://docs.opticalpha.net/">
+  <link rel="icon" type="image/webp" href="https://opticalpha.net/img/opticalpha.webp">
+  <link rel="apple-touch-icon" href="https://opticalpha.net/img/opticalpha.webp">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="OpticAlpha Terminal Documentation">
   <meta property="og:title" content="OpticAlpha Terminal Documentation">
-  <meta property="og:description" content="Technical documentation for the OpticAlpha real-time market data terminal — 12 live channels covering options flow, GEX, crypto, forex, and macro.">
+  <meta property="og:description" content="Technical documentation for the OpticAlpha real-time market data terminal: 13 live channels covering options flow, GEX, crypto, forex, macro, and Kalshi prediction markets.">
   <meta property="og:url" content="https://docs.opticalpha.net/">
   <meta property="og:image" content="https://opticalpha.net/img/og-image.png">
   <meta property="og:locale" content="en_US">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@opticalpha870">
+  <meta name="twitter:creator" content="@opticalpha870">
   <meta name="twitter:title" content="OpticAlpha Terminal Documentation">
-  <meta name="twitter:description" content="Technical documentation for the OpticAlpha real-time market data terminal — 12 live channels covering options flow, GEX, crypto, forex, and macro.">
+  <meta name="twitter:description" content="Technical documentation for the OpticAlpha real-time market data terminal: 13 live channels covering options flow, GEX, crypto, forex, macro, and Kalshi prediction markets.">
   <meta name="twitter:image" content="https://opticalpha.net/img/og-image.png">
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 48px auto; padding: 0 24px; color: #24292f; line-height: 1.6; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 760px; margin: 0 auto 48px; padding: 0 24px; color: #24292f; line-height: 1.6; }
     h1 { font-size: 28px; margin-bottom: 8px; }
     h2 { font-size: 18px; margin-top: 36px; border-bottom: 1px solid #d0d7de; padding-bottom: 8px; }
     a { color: #0969da; text-decoration: none; }
@@ -31,30 +35,48 @@
     ul { padding-left: 20px; }
     li { margin-bottom: 8px; }
     .subtitle { color: #57606a; font-size: 16px; margin-bottom: 32px; }
+    .site-nav { display: flex; align-items: center; justify-content: space-between; max-width: 760px; margin: 0 auto; padding: 20px 24px; border-bottom: 1px solid #d0d7de; }
+    .site-nav .brand { display: flex; align-items: center; gap: 8px; font-weight: 700; color: #24292f; font-size: 15px; }
+    .site-nav .brand img { width: 22px; height: 22px; border-radius: 5px; display: block; }
+    .site-nav .links { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
+    .site-nav .links a { color: #57606a; }
+    .site-nav .links a:hover { color: #10B981; text-decoration: none; }
   </style>
 </head>
 <body>
+  <nav class="site-nav">
+    <a class="brand" href="/"><img src="https://opticalpha.net/img/opticalpha.webp" alt="OpticAlpha" width="22" height="22">OpticAlpha Docs</a>
+    <div class="links">
+      <a href="docs/glossary">Glossary</a>
+      <a href="docs/faq">FAQ</a>
+      <a href="docs/data-sources">Data Sources</a>
+      <a href="docs/channel-comparison">Comparison</a>
+      <a href="https://opticalpha.net">opticalpha.net &rarr;</a>
+    </div>
+  </nav>
+  <div style="margin-top: 48px">
   <h1>OpticAlpha Terminal Documentation</h1>
-  <p class="subtitle">Technical reference for the <a href="https://opticalpha.net">OpticAlpha</a> real-time market data terminal. 12 live channels across equities, crypto, forex, options, and macro.</p>
+  <p class="subtitle">Technical reference for the <a href="https://opticalpha.net">OpticAlpha</a> real-time market data terminal. 13 live channels across equities, crypto, forex, options, macro, and prediction markets.</p>
 
   <h2>Reference docs</h2>
   <ul>
-    <li><a href="docs/glossary">Trading terminal glossary</a> — definitions for GEX, CVD, max pain, COT, liquidation maps, and 30+ other terms</li>
-    <li><a href="docs/faq">Frequently asked questions</a> — how the terminal works, data update frequencies, and common trader questions</li>
-    <li><a href="docs/data-sources">Data sources</a> — where each channel sources its data and how fresh it is</li>
-    <li><a href="docs/channel-comparison">Platform comparison</a> — OpticAlpha vs Unusual Whales, SpotGamma, GEXStream, Tradytics, and others</li>
+    <li><a href="docs/glossary">Trading terminal glossary</a>: definitions for GEX, CVD, max pain, COT, liquidation maps, and 30+ other terms</li>
+    <li><a href="docs/faq">Frequently asked questions</a>: how the terminal works, data update frequencies, and common trader questions</li>
+    <li><a href="docs/data-sources">Data sources</a>: where each channel sources its data and how fresh it is</li>
+    <li><a href="docs/channel-comparison">Platform comparison</a>: OpticAlpha vs Unusual Whales, SpotGamma, GEXStream, Tradytics, and others</li>
   </ul>
 
   <h2>Full channel documentation</h2>
   <ul>
-    <li><a href="https://github.com/OpticAlpha870/trading-terminal-docs#readme">All 12 channels — README</a></li>
+    <li><a href="https://github.com/OpticAlpha870/trading-terminal-docs#readme">All 13 channels, in the README</a></li>
   </ul>
 
   <h2>Links</h2>
   <ul>
     <li><a href="https://opticalpha.net/terminal">Live terminal</a></li>
     <li><a href="https://opticalpha.net/blog">Blog</a></li>
-    <li><a href="https://opticalpha.net/pricing">Pricing — $10.50/month, 14-day free trial</a></li>
+    <li><a href="https://opticalpha.net/pricing">Pricing: $10.50/month, 14-day free trial</a></li>
   </ul>
+  </div>
 </body>
 </html>

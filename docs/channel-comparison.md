@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Platform Comparison — OpticAlpha vs Competitors
+title: Platform Comparison: OpticAlpha vs Competitors
 description: OpticAlpha vs Unusual Whales, SpotGamma, GEXStream, Tradytics, and Koyfin. Feature and pricing comparison for active trader market data platforms.
 ---
 
 # Platform comparison
 
-OpticAlpha vs the most common alternatives. Prices verified June 2026 — check each platform's current pricing page for the latest rates.
+OpticAlpha vs the most common alternatives. Prices verified June 2026; check each platform's current pricing page for the latest rates.
 
 ---
 
@@ -14,7 +14,7 @@ OpticAlpha vs the most common alternatives. Prices verified June 2026 — check 
 
 | Platform | Monthly | Annual | What it covers |
 |---|---|---|---|
-| **OpticAlpha** | $15.00 | **$10.50/mo** | Equities, crypto, forex, options, macro, filings |
+| **OpticAlpha** | $15.00 | **$10.50/mo** | Equities, crypto, forex, options, macro, filings, predictions |
 | Unusual Whales | $63.00 | $48.00/mo | Options flow, dark pools, congressional trades |
 | SpotGamma | $149.00 | — | GEX, dealer positioning (equities only) |
 | GEXStream | $39.50 | $29.50/mo | GEX, dealer positioning (equities only) |
@@ -61,6 +61,8 @@ OpticAlpha vs the most common alternatives. Prices verified June 2026 — check 
 | Analyst ratings | ✓ | — | — | — | — | ✓ |
 | Company research | ✓ | — | — | — | — | ✓ |
 | Social sentiment | ✓ | ✓ | — | — | ✓ | — |
+| **Predictions** | | | | | | |
+| Kalshi prediction markets | ✓ | — | — | — | — | — |
 
 ---
 
@@ -74,7 +76,7 @@ OpticAlpha covers the full stack at $10.50/month versus $48/month for Unusual Wh
 
 ### OpticAlpha vs SpotGamma
 
-SpotGamma pioneered retail access to GEX analysis and has the most established brand in dealer positioning data. Its GEX methodology is well documented and widely cited. The product is equities-only — no crypto, no forex, no macro, no filings. It is a single-asset-class tool at $149/month for the entry tier.
+SpotGamma pioneered retail access to GEX analysis and has the most established brand in dealer positioning data. Its GEX methodology is well documented and widely cited. The product is equities only: no crypto, no forex, no macro, no filings. It is a single-asset-class tool at $149/month for the entry tier.
 
 OpticAlpha's GEX channel covers the same core metrics (net GEX, DEX, call wall, put wall, zero gamma line) plus the squeeze radar scoring layer, at $10.50/month as part of the full terminal.
 
@@ -84,7 +86,7 @@ GEXStream is the most direct GEX competitor on price, starting at $29.50/month o
 
 ### OpticAlpha vs Koyfin
 
-Koyfin is a macro and fundamentals platform aimed at analysts and portfolio managers. Strong yield curve coverage, FRED data, and company fundamentals. No options flow, no GEX, no crypto market structure, no forex COT positioning, no filings. Different primary use case — fundamental research rather than active trading. Starting at $49/month on annual.
+Koyfin is a macro and fundamentals platform aimed at analysts and portfolio managers. Strong yield curve coverage, FRED data, and company fundamentals. No options flow, no GEX, no crypto market structure, no forex COT positioning, no filings. Different primary use case: fundamental research rather than active trading. Starting at $49/month on annual.
 
 ---
 
@@ -104,6 +106,6 @@ OpticAlpha covers all of it at $10.50/month on the annual plan. The tradeoff is 
 
 ---
 
-*Full terminal: [opticalpha.net/terminal](https://opticalpha.net/terminal) — 14-day free trial, no credit card required.*
+*Full terminal: [opticalpha.net/terminal](https://opticalpha.net/terminal). 14-day free trial, no credit card required.*
 
 *Pricing data last verified June 2026. Check each platform's pricing page for current rates.*
