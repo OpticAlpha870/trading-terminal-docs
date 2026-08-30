@@ -10,7 +10,7 @@ Technical reference for the [OpticAlpha](https://opticalpha.net) real-time marke
 
 ## Data Channels
 
-OpticAlpha runs 13 data channels, each streaming over a dedicated WebSocket connection. Cards update in real time as new data arrives.
+OpticAlpha runs 20+ data channels, each streaming over a dedicated WebSocket connection. Cards update in real time as new data arrives.
 
 ---
 
@@ -59,7 +59,7 @@ BTC and ETH live prices with 1-minute candlestick charts and volume. Crypto Fear
 
 ### 5. Crypto Orderflow
 
-Binance order book depth for BTC and ETH showing real-time bid/ask ladders. Cumulative Volume Delta (CVD) from aggregated trade data.
+Live order book depth for BTC and ETH showing real-time bid/ask ladders. Cumulative Volume Delta (CVD) from aggregated trade data.
 
 **Use case:** Order book imbalance for scalping, CVD divergence as exhaustion signal.
 
@@ -131,13 +131,7 @@ WallStreetBets trending tickers ranked by mention count with 24-hour momentum. S
 
 ---
 
-### 12. AI Algo Wars
-
-Simulated paper trading competition between AI models. Each model has a portfolio, P&L, and recent trade history. Entertainment feature, not a trading signal.
-
----
-
-### 13. Kalshi Predictions
+### 12. Kalshi Predictions
 
 Implied probabilities, order book depth, and term structure for top finance-relevant Kalshi prediction markets: Fed rate decisions, CPI prints, BTC price bands, NFP, GDP, and more. A capital velocity metric shows how fast money is rotating through a market. Sparklines are built from 24-hour hourly candlesticks.
 

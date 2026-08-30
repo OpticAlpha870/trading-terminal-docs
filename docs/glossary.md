@@ -166,7 +166,7 @@ A measure of how fast money is rotating through a prediction market. High veloci
 A persistent connection between the terminal and the data server that pushes new data as it arrives, without the client needing to request it. Most real-time channels in the terminal use WebSockets. Contrasts with polling, where the client requests data on a fixed interval.
 
 **Channel**
-One of the 13 distinct data streams in the OpticAlpha terminal. Each channel has its own card, its own data source, and its own update frequency.
+One of the 20+ distinct data streams in the OpticAlpha terminal. Each channel has its own card, its own data source, and its own update frequency.
 
 **Squeeze radar score**
 A 0-100 composite score generated per ticker measuring proximity to gamma squeeze conditions. 80+ indicates strong setup. Combines GEX sign, net flow direction, price position relative to call wall, and short interest data.
