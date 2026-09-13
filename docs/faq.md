@@ -81,7 +81,7 @@ Form 4 is filed by individual corporate insiders (directors, officers, 10%+ shar
 Open market purchases require the insider to spend their own money at current market prices with full knowledge of company fundamentals. There is no external reason to buy: no compensation plan, no exercise requirement. It is the purest expression of conviction. Sales, by contrast, happen for many reasons including diversification, tax planning, and compensation-related exercises, so they carry less informational weight.
 
 **How long do members of Congress have to disclose stock trades?**
-Under the [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038), members of Congress and their staff must report stock transactions within 30 days of the trade. Violations carry a $200 fine, which is widely considered insufficient enforcement. The terminal surfaces disclosures as they are filed publicly.
+Under the [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038), members of Congress and their staff must report stock transactions within 45 days of the trade. Violations carry a $200 fine, which is widely considered insufficient enforcement. The terminal surfaces disclosures as they are filed publicly.
 
 ---
 
@@ -97,7 +97,7 @@ Yes. The Predictions channel tracks Kalshi markets for Fed rate decisions, CPI p
 Unusual Whales focuses on options flow and dark pools with no forex, macro, or crypto market structure coverage. SpotGamma focuses on GEX and dealer positioning for equities only. OpticAlpha covers all of it in one workspace at $10.50/month on the annual plan, versus $50/month for Unusual Whales and $99/month for SpotGamma. See the full [platform comparison](channel-comparison).
 
 **Does the terminal work on mobile?**
-The terminal is optimised for desktop. The multi-channel layout requires screen width to be useful. The marketing pages and this documentation are fully responsive. Mobile browser access to the terminal is possible but the desktop experience is significantly richer.
+Yes. The terminal is responsive down to mobile-width browsers — every channel is built and verified at desktop, tablet, and mobile breakpoints. A wider screen still fits more channels on-screen at once simply because there's more room, but mobile isn't a degraded fallback.
 
 **What is the data latency?**
 Most channels use live WebSocket feeds that push data as it arrives. Crypto prices, FX spot rates, options flow, and crypto liquidations are real-time. Index prices update on 1-minute candles. Macro indicators update on their official release schedules. Insider filings and congressional disclosures reflect [SEC](https://www.sec.gov/edgar) processing time.

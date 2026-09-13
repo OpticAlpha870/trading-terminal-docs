@@ -113,10 +113,10 @@ Upcoming earnings dates and EPS estimates. Updates daily.
 ## Filings and research
 
 **Insider trades (Form 4)**
-Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). All qualifying Form 4 filings: open market purchases and sales, minimum $100,000 notional, rolling 180-day window. No third-party data vendor. Filings surface within the SEC's own processing time, typically hours after filing.
+Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). All qualifying Form 4 filings: open market purchases and sales, minimum $100,000 notional, rolling 30-day window. No third-party data vendor. Filings surface within the SEC's own processing time, typically hours after filing.
 
 **Congressional trades (STOCK Act disclosures)**
-Tracks public [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038) disclosure filings. Members of Congress have 30 days to report after the transaction date. The terminal shows the filing date, transaction date, politician name, party, chamber, ticker, transaction type, and reported amount range.
+Tracks public [STOCK Act](https://www.congress.gov/bill/112th-congress/senate-bill/2038) disclosure filings. Members of Congress have 45 days to report after the transaction date. The terminal shows the filing date, transaction date, politician name, party, chamber, ticker, transaction type, and reported amount range.
 
 **13F institutional holdings**
 Sourced directly from [SEC EDGAR](https://www.sec.gov/edgar). Covers all 13F filings from institutional managers with over $100 million AUM. Quarterly, with data available within 45 days of quarter end. Shows most added, most reduced, new positions, and closed positions per quarter.

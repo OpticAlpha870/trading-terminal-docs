@@ -140,7 +140,7 @@ A pre-scheduled trading plan set up in advance, typically when the insider does 
 Quarterly report required from institutional investment managers with over $100 million in assets under management. Shows all US equity holdings as of quarter end. Filed within 45 days of quarter end, meaning the data is 6-7 weeks stale by the time it is public. Useful for structural positioning signals, not short-term signals.
 
 **STOCK Act**
-Stop Trading on Congressional Knowledge Act. Requires members of Congress and their staff to disclose stock trades within 30 days of the transaction. Disclosures are public and tracked in the terminal.
+Stop Trading on Congressional Knowledge Act. Requires members of Congress and their staff to disclose stock trades within 45 days of the transaction. Disclosures are public and tracked in the terminal.
 
 **Congressional trade**
 A stock transaction reported under the STOCK Act by a sitting member of Congress or their spouse. Not necessarily based on non-public information, but sector concentration patterns across multiple members can signal policy direction.

@@ -92,17 +92,19 @@ Koyfin is a macro and fundamentals platform aimed at analysts and portfolio mana
 
 ## The fragmentation problem
 
-A trader who wants options flow, GEX analysis, crypto liquidation data, forex COT positioning, and macro indicators currently needs at least four separate subscriptions:
+A trader who wants charting, financial news, options flow, and crypto on-chain data currently needs at least four separate subscriptions:
 
 | Tool | Monthly cost |
 |---|---|
-| Unusual Whales (options flow) | $50 |
-| SpotGamma or GEXStream (GEX) | $49.50-99 |
-| Nansen or similar (crypto) | $49-69 |
-| Koyfin or similar (macro/forex) | $49-79 |
-| **Total** | **$197.50-297/month** |
+| TradingView Pro (charting) | $14.95 |
+| Benzinga Pro (news/data) | $37.00 |
+| Unusual Whales (options flow) | $50.00 |
+| Nansen Pro (crypto on-chain) | $49.00 |
+| **Total** | **$151+/month** |
 
-OpticAlpha covers all of it at $10.50/month on the annual plan. The tradeoff is depth: a platform specialising in one asset class will always go deeper in that niche. For traders who need broad cross-asset context rather than maximum depth in one area, the consolidation is the primary value proposition.
+OpticAlpha covers all of it, plus GEX, macro, forex, filings, and Kalshi prediction markets on top, at $10.50/month on the annual plan. The tradeoff is depth: a platform specialising in one asset class will always go deeper in that niche. For traders who need broad cross-asset context rather than maximum depth in one area, the consolidation is the primary value proposition.
+
+For GEX and dealer-positioning specifically, SpotGamma and GEXStream are the closer single-purpose comparison — see the pricing table above.
 
 ---
 

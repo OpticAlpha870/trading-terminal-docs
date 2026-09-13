@@ -24,15 +24,15 @@ Live market headlines, a USD economic calendar with actual vs forecast vs prior 
 
 ### 2. Equities
 
-Live index prices for SPY, QQQ, and DIA with 1-minute candlestick charts. VIX spot level. Fear & Greed gauge (0-100) with 7-day history. Top gainers, losers, gap ups and gap downs. AI-generated market brief. Earnings calendar with EPS estimates.
+Live index prices for SPY, QQQ, and DIA with 1-minute candlestick charts. VIX spot level. Fear & Greed gauge (0-100) with 7-day history. A ranked Hot List of what's actually moving today (composite of trade activity, search interest, and news attention), Unusual Volume, and session-aware (pre/post/overnight) gainers, losers, gap ups and gap downs. A Conviction Radar casts a directional vote per ticker from six independent sources (options flow, social, congress, insider, analyst, Hot List heat). AI-generated market brief. Earnings calendar with EPS estimates and an IV Rank flag.
 
-**Use case:** Start-of-day context, volatility regime check, gap scanner for pre-market setups.
+**Use case:** Start-of-day context, volatility regime check, gap scanner for pre-market setups, cross-source conviction check before sizing a position.
 
 ---
 
 ### 3. Options
 
-Real-time unusual options flow feed showing sweeps, blocks, and whale prints with premium, volume, and open interest. Max pain chart for SPY, QQQ, and DIA by nearest expiry. Active options table ranked by total notional with relative notional and put/call breakdown. On-demand GEX (gamma exposure) analysis per ticker.
+Real-time unusual options flow feed showing sweeps, blocks, and whale prints with premium, volume, and open interest, ranked by a Flow Score leaderboard. Max pain chart for SPY, QQQ, and DIA by nearest expiry. Active options table ranked by total notional with relative notional and put/call breakdown. On-demand GEX (gamma exposure) analysis per ticker with a squeeze radar score.
 
 **Key concepts:**
 - **Sweep:** Aggressive multi-exchange order, often directional
@@ -45,7 +45,15 @@ Real-time unusual options flow feed showing sweeps, blocks, and whale prints wit
 
 ---
 
-### 4. Crypto
+### 4. Options Overview & Screeners
+
+Market-wide aggregate options picture: put/call ratio (volume or open interest), a sector flow rollup, index max pain for SPY/QQQ/DIA, and the day's most active names by notional. Three additional screeners: 0DTE contracts by volume and IV rank, premium-selling puts/calls by annualized return, and earnings plays flagged RICH/CHEAP/CALIBRATED against their own historical realized move.
+
+**Use case:** Sector-level options positioning, ranking premium-selling candidates by risk-adjusted return, spotting earnings names where options are mispricing the expected move.
+
+---
+
+### 5. Crypto
 
 BTC and ETH live prices with 1-minute candlestick charts and volume. Crypto Fear & Greed gauge. Liquidation heatmap showing forced liquidation clusters by price level and leverage tier. Live liquidation feed. Whale alerts from large perpetual trades. Bitcoin spot ETF daily flows. Crypto segment performance by narrative (Layer 1, DeFi, Layer 2, AI tokens, etc.).
 
@@ -57,7 +65,7 @@ BTC and ETH live prices with 1-minute candlestick charts and volume. Crypto Fear
 
 ---
 
-### 5. Crypto Orderflow
+### 6. Crypto Orderflow
 
 Live order book depth for BTC and ETH showing real-time bid/ask ladders. Cumulative Volume Delta (CVD) from aggregated trade data.
 
@@ -65,7 +73,15 @@ Live order book depth for BTC and ETH showing real-time bid/ask ladders. Cumulat
 
 ---
 
-### 6. Macro
+### 7. Crypto Derivatives
+
+Funding rates, open interest, and basis across roughly 230 perpetual futures markets, plus whale-wallet cohorts and corporate treasury holdings behind the leverage.
+
+**Use case:** Spotting overleveraged funding extremes (squeeze risk), tracking which wallets and treasuries are actually behind the positioning.
+
+---
+
+### 8. Macro
 
 Live US yield curve (2Y, 3M, 10Y) plus UK and German 10Y for cross-market context. 18 FRED economic indicators across five groups:
 
@@ -81,7 +97,7 @@ Each series shows current value, previous value, direction, and a sparkline.
 
 ---
 
-### 7. Forex
+### 9. Forex
 
 Live spot rates for 7 pairs: EURUSD, USDJPY, GBPUSD, USDCAD, AUDUSD, USDCHF, NZDUSD. 30-day price history with ATR calculated as a percentage of spot. CFTC COT non-commercial net positioning as a bar chart: extremes signal potential reversals, not continuation. Central bank policy rates with historical rate path. Economic calendar covering all 8 FX-relevant currencies.
 
@@ -93,7 +109,7 @@ Live spot rates for 7 pairs: EURUSD, USDJPY, GBPUSD, USDCAD, AUDUSD, USDCHF, NZD
 
 ---
 
-### 8. Filings
+### 10. Filings
 
 Congressional stock trades reported under the STOCK Act, showing politician name, party, chamber, ticker, transaction type, and amount range. Insider transactions from SEC EDGAR Form 4 filings: open market purchases and sales only, minimum $100,000, 30-day rolling window. Sourced directly from SEC EDGAR, not a third-party provider.
 
@@ -105,9 +121,9 @@ Congressional stock trades reported under the STOCK Act, showing politician name
 
 ---
 
-### 9. Institutions
+### 11. Institutions
 
-Aggregate view of all 13F institutional filings from SEC EDGAR: most added, most reduced, new positions, and fully closed positions for the current quarter. Per-fund holdings trend search showing position changes across multiple quarters.
+Aggregate view of all 13F institutional filings from SEC EDGAR: most added, most reduced, new positions, and fully closed positions for the current quarter. Per-fund holdings trend search showing position changes across multiple quarters, plus a Top Institutions leaderboard ranked by AUM.
 
 **Note:** 13F data is quarterly with a 45-day filing lag. It shows where institutional money was 6-7 weeks ago, useful for structural positioning, not short-term signals.
 
@@ -115,15 +131,31 @@ Aggregate view of all 13F institutional filings from SEC EDGAR: most added, most
 
 ---
 
-### 10. Company Intel
+### 12. Capital Network
 
-On-demand per-ticker research: financial health score, revenue and earnings trends, peer comparison, analyst consensus rating, recent upgrades and downgrades, price target history, and GEX analysis by strike.
+A second layer on the same 13F/Form 4/congressional data: institutional crowding and rotation (which stocks concentrated 13F money is piled into together, and how that's shifted quarter over quarter), plus a graph of connections between politicians, companies, and insiders.
 
-**Use case:** Pre-trade research, analyst sentiment, dealer gamma positioning for a specific name.
+**Use case:** Spotting which names are crowded trades, seeing political/insider attention cluster around a company before it shows up elsewhere.
 
 ---
 
-### 11. Socials
+### 13. Company Intel
+
+On-demand per-ticker research: financial health score, revenue and earnings trends, peer comparison, price target consensus, and GEX analysis by strike.
+
+**Use case:** Pre-trade research, dealer gamma positioning for a specific name.
+
+---
+
+### 14. Analyst Ratings
+
+Every analyst rating action (initiated, upgraded, downgraded, reiterated, price target changes) normalized into one consistent scale across brokers, with a per-broker Credibility badge: a rolling 90-day hit-rate grade reconciled against real price moves after each call.
+
+**Use case:** Reading upgrade/downgrade momentum across the market, weighting a rating change by how reliable that specific broker has actually been.
+
+---
+
+### 15. Socials
 
 WallStreetBets trending tickers ranked by mention count with 24-hour momentum. Short squeeze watchlist showing short float percentage, days to cover, and mention count.
 
@@ -131,7 +163,7 @@ WallStreetBets trending tickers ranked by mention count with 24-hour momentum. S
 
 ---
 
-### 12. Kalshi Predictions
+### 16. Kalshi Predictions
 
 Implied probabilities, order book depth, and term structure for top finance-relevant Kalshi prediction markets: Fed rate decisions, CPI prints, BTC price bands, NFP, GDP, and more. A capital velocity metric shows how fast money is rotating through a market. Sparklines are built from 24-hour hourly candlesticks.
 
@@ -143,6 +175,12 @@ Implied probabilities, order book depth, and term structure for top finance-rele
 
 ---
 
+## Also in the terminal
+
+**AI Chat** — free, no login required. Ask plain-English questions ("is AAPL's IV high right now," "who's buying Tesla") and get a live-data answer back. Not part of the numbered channel list above since it's a cross-cutting Q&A layer over the same data, not its own tab.
+
+---
+
 ## Update Frequency Reference
 
 | Channel | Fastest update |
@@ -151,18 +189,24 @@ Implied probabilities, order book depth, and term structure for top finance-rele
 | FX spot rates | Real-time |
 | Options flow | Real-time |
 | Crypto liquidations | Real-time |
+| Crypto derivatives (funding/OI) | Real-time |
+| Options overview (put/call ratio) | Real-time (session) |
 | Kalshi prediction markets | ~5-minute poll |
 | Index prices | 1-minute candles |
 | VIX | ~60 seconds |
 | Yield curve | ~60 seconds |
+| Options screeners (0DTE/premium/earnings) | ~10-minute poll |
+| Analyst ratings | ~4-hour poll |
 | Fear & Greed | Hourly |
 | Economic calendar | Daily |
 | Crypto ETF flows | Daily |
 | CFTC COT | Weekly |
 | FRED macro series | Monthly |
 | Institutional 13F | Quarterly |
+| Capital Network (13F-derived) | Quarterly |
 | Congressional trades | Days after filing |
 | Insider Form 4 | Days after filing |
+| AI Chat | On-demand (not streamed) |
 
 ---
 
