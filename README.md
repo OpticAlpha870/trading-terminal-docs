@@ -217,4 +217,6 @@ Implied probabilities, order book depth, and term structure for top finance-rele
 - X: [@opticalpha870](https://x.com/opticalpha870)
 - Bluesky: [opticalpha.bsky.social](https://bsky.app/profile/opticalpha.bsky.social)
 - LinkedIn: [linkedin.com/company/opticalpha](https://www.linkedin.com/company/opticalpha)
+- Instagram: [@opticalpha_official](https://www.instagram.com/opticalpha_official/)
+- Pinterest: [pinterest.com/opticalpha](https://www.pinterest.com/opticalpha/)
 - Telegram: [t.me/opticalpha](https://t.me/opticalpha)
