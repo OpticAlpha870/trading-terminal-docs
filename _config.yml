@@ -6,14 +6,14 @@ baseurl: ""
 
 author:
   name: OpticAlpha
-  twitter: opticalpha870
+  twitter: OpticAlphaNet
 
 image: https://opticalpha.net/img/og-image.png
 favicon: https://opticalpha.net/img/opticalpha.webp
 
 twitter:
   card: summary_large_image
-  username: opticalpha870
+  username: OpticAlphaNet
 
 # jekyll-seo-tag (GitHub Pages version) only reads page-level `image`,
 # not site.image — so inject it into every page's front matter.

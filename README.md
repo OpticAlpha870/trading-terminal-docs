@@ -215,7 +215,7 @@ Implied probabilities, order book depth, and term structure for top finance-rele
 - Terminal: [opticalpha.net/terminal](https://opticalpha.net/terminal)
 - Blog: [opticalpha.net/blog](https://opticalpha.net/blog)
 - Videos: [opticalpha.net/videos](https://opticalpha.net/videos) (narrated terminal walkthroughs with chapters and transcripts)
-- X: [@opticalpha870](https://x.com/opticalpha870)
+- X: [@OpticAlphaNet](https://x.com/OpticAlphaNet)
 - Bluesky: [opticalpha.bsky.social](https://bsky.app/profile/opticalpha.bsky.social)
 - LinkedIn: [linkedin.com/company/opticalpha](https://www.linkedin.com/company/opticalpha)
 - Instagram: [@opticalpha_official](https://www.instagram.com/opticalpha_official/)
